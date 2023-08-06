@@ -1,0 +1,34 @@
+@font-face {
+
+    font-family: 'DEFAULT';
+    src: url('/public/fonts/type_writer.ttf');
+
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+
+    font-family: 'Roboto Medium';
+    src: url('/public/fonts/Roboto-Medium.ttf');
+    
+}
+
+.font_default {
+    font-family: 'DEFAULT';
+}
+
+.font_rm {
+    font-family: 'Roboto Medium';
+}
+
+.font_rb {
+    font-family: 'Roboto Bold';
+}
+
+@font-face {
+
+    font-family: 'Roboto Bold';
+    src: url('/public/fonts/Roboto-Bold.ttf');
+}

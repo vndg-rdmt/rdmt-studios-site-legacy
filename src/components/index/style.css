@@ -1,0 +1,92 @@
+#conduit {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    width: 90vw;
+    max-width: 1315px;
+    height: 50vh;
+}
+
+.conduit_pipeline {
+    --b: 1px;
+    /* thickness of the border */
+    --c: white;
+    /* color of the border */
+    --w: 2px;
+    /* width of border */
+
+    transition-duration: 800ms;
+
+    border: var(--b) solid #0000;
+    /* space for the border */
+    --_g: #0000 90deg, var(--c) 0;
+    --_p: var(--w) var(--w) border-box no-repeat;
+    background:
+        conic-gradient(from 90deg at top var(--b) left var(--b), var(--_g)) 0 0 / var(--_p),
+        conic-gradient(from 180deg at top var(--b) right var(--b), var(--_g)) 100% 0 / var(--_p),
+        conic-gradient(from 0deg at bottom var(--b) left var(--b), var(--_g)) 0 100% / var(--_p),
+        conic-gradient(from -90deg at bottom var(--b) right var(--b), var(--_g)) 100% 100% / var(--_p);
+
+    /*Irrelevant code*/
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.conduit_pipeline:hover {
+    transition-duration: 300ms;
+    --w: 100px;
+    background-color: #171D21
+}
+
+.conduit_pipeline:active {
+    border: 1px solid white;
+    transition-duration: 0ms;
+    background-color: #081f2a;
+}
+
+.injectButton {
+
+    background-color: #171D21;
+    color: white;
+    position: absolute;
+    top: 35vh;
+    margin-top: 30px;
+
+    color: white;
+    font-size: 13px;
+    text-align: center;
+
+    border: 1px solid white;
+    padding: 18px;
+    width: 330px;
+
+    filter: blur(0.6px);
+    text-shadow: #171D99 -4px 0px 1px, #13562b 3px 0px 1px;
+    box-shadow: #171D99 -4px 0px 1px, #13562b 3px 0px 1px;
+}
+
+.injectButton:hover {
+
+    filter: blur(0.4px);
+    background-color: #29353c;
+}
+
+.injectButton:active {
+    background-color: #081f2a;
+}
+
+.regular {
+    color: white;
+    font-size: 11px;
+}
+
+.scale {
+    width: 100%;
+    max-width: 300px;
+    min-width: 180px;
+}

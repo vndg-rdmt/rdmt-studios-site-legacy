@@ -1,0 +1,38 @@
+@import url("./fonts.css");
+@import url("./essentials.css");
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'DEFAULT';
+}
+
+body {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#root {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    background-color: #080808;
+    filter: blur(0.7px);
+
+}

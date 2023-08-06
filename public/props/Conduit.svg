@@ -1,0 +1,28 @@
+<svg width="1632" height="497" viewBox="0 0 1632 497" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M550 294H813H816V291H813H550H547V294V306V309H550H813H816V306H813H550V294Z" fill="#508C8D"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M598 1H815H816V0H815H598H597V1V27V28H598H815H816V27H815H598V1Z" fill="#508C8D"/>
+<mask id="path-3-inside-1_14_132" fill="white">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M63 0H0V59V497H63V59H83V0H63Z"/>
+</mask>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M63 0H0V59V497H63V59H83V0H63Z" fill="#213334" fill-opacity="0.5"/>
+<path d="M0 0V-3H-3V0H0ZM0 497H-3V500H0V497ZM63 497V500H66V497H63ZM63 59V56H60V59H63ZM83 59V62H86V59H83ZM83 0H86V-3H83V0ZM0 3H63V-3H0V3ZM3 59V0H-3V59H3ZM3 497V59H-3V497H3ZM63 494H0V500H63V494ZM60 59V497H66V59H60ZM83 56H63V62H83V56ZM80 0V59H86V0H80ZM63 3H83V-3H63V3Z" fill="#508C8D" mask="url(#path-3-inside-1_14_132)"/>
+<rect x="81.5" y="0.5" width="437" height="27" stroke="#508C8D"/>
+<rect x="518.5" y="1.5" width="79" height="56" fill="#213334" fill-opacity="0.5" stroke="#508C8D" stroke-width="3"/>
+<rect x="273.5" y="245.5" width="30" height="62" fill="#213334" fill-opacity="0.5" stroke="#508C8D" stroke-width="3"/>
+<rect x="516.5" y="245.5" width="32" height="250" fill="#213334" fill-opacity="0.5" stroke="#508C8D" stroke-width="3"/>
+<rect x="61.5" y="292.5" width="212" height="15" stroke="#508C8D" stroke-width="3"/>
+<rect x="303.5" y="292.5" width="213" height="15" stroke="#508C8D" stroke-width="3"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1082 294H819H816V291H819H1082H1085V294V306V309H1082H819H816V306H819H1082V294Z" fill="#508C8D"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1034 1H817H816V0H817H1034H1035V1V27V28H1034H817H816V27H817H1034V1Z" fill="#508C8D"/>
+<mask id="path-13-inside-2_14_132" fill="white">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1569 0H1632V59V497H1569V59H1549V0H1569Z"/>
+</mask>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1569 0H1632V59V497H1569V59H1549V0H1569Z" fill="#213334" fill-opacity="0.5"/>
+<path d="M1632 0V-3H1635V0H1632ZM1632 497H1635V500H1632V497ZM1569 497V500H1566V497H1569ZM1569 59V56H1572V59H1569ZM1549 59V62H1546V59H1549ZM1549 0H1546V-3H1549V0ZM1632 3H1569V-3H1632V3ZM1629 59V0H1635V59H1629ZM1629 497V59H1635V497H1629ZM1569 494H1632V500H1569V494ZM1572 59V497H1566V59H1572ZM1549 56H1569V62H1549V56ZM1552 0V59H1546V0H1552ZM1569 3H1549V-3H1569V3Z" fill="#508C8D" mask="url(#path-13-inside-2_14_132)"/>
+<rect x="-0.5" y="0.5" width="437" height="27" transform="matrix(-1 0 0 1 1550 0)" stroke="#508C8D"/>
+<rect x="-1.5" y="1.5" width="79" height="56" transform="matrix(-1 0 0 1 1112 0)" fill="#213334" fill-opacity="0.5" stroke="#508C8D" stroke-width="3"/>
+<rect x="-1.5" y="1.5" width="30" height="62" transform="matrix(-1 0 0 1 1357 244)" fill="#213334" fill-opacity="0.5" stroke="#508C8D" stroke-width="3"/>
+<rect x="-1.5" y="1.5" width="32" height="250" transform="matrix(-1 0 0 1 1114 244)" fill="#213334" fill-opacity="0.5" stroke="#508C8D" stroke-width="3"/>
+<rect x="-1.5" y="1.5" width="212" height="15" transform="matrix(-1 0 0 1 1569 291)" stroke="#508C8D" stroke-width="3"/>
+<rect x="-1.5" y="1.5" width="213" height="15" transform="matrix(-1 0 0 1 1327 291)" stroke="#508C8D" stroke-width="3"/>
+</svg>

@@ -1,0 +1,58 @@
+
+.tms_reg {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.link {
+    background-color: #171D21;
+    color: white;
+}
+
+.link:hover {
+    background-color: #29353c;
+}
+
+.link:active {
+    background-color: #081f2a;
+}
+
+.conduit_pipeline {
+    --b: 1px;
+    /* thickness of the border */
+    --c: white;
+    /* color of the border */
+    --w: 2px;
+    /* width of border */
+
+    transition-duration: 800ms;
+
+    border: var(--b) solid #0000;
+    /* space for the border */
+    --_g: #0000 90deg, var(--c) 0;
+    --_p: var(--w) var(--w) border-box no-repeat;
+    background:
+        conic-gradient(from 90deg at top var(--b) left var(--b), var(--_g)) 0 0 / var(--_p),
+        conic-gradient(from 180deg at top var(--b) right var(--b), var(--_g)) 100% 0 / var(--_p),
+        conic-gradient(from 0deg at bottom var(--b) left var(--b), var(--_g)) 0 100% / var(--_p),
+        conic-gradient(from -90deg at bottom var(--b) right var(--b), var(--_g)) 100% 100% / var(--_p);
+
+    /*Irrelevant code*/
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.conduit_pipeline:hover {
+    transition-duration: 300ms;
+    --w: 20px;
+    background-color: #171D21
+}
+
+.conduit_pipeline:active {
+    border: 1px solid white;
+    transition-duration: 0ms;
+    background-color: #081f2a;
+}
